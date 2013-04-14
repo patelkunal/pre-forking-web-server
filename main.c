@@ -5,7 +5,7 @@
 
 typedef struct
 {
-  pid_t pid;
+	pid_t pid;
 	int status;
 	int requestsHandled;
 } child_info;
